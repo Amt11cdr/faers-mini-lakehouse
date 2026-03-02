@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated data layers
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# Keep only sample outputs
+!data/sample_outputs/

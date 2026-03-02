@@ -1,0 +1,46 @@
+medicinalproduct,reactionmeddrapt,count
+AMOXICILLIN,Drug interaction,5
+AMOXICILLIN,Dyspnoea,4
+AMOXICILLIN,Gastrointestinal haemorrhage,4
+AMOXICILLIN,Generalised erythema,4
+AMOXICILLIN,Hypoaesthesia,4
+AMOXICILLIN,Hypoaesthesia oral,4
+AMOXICILLIN,Transaminases increased,4
+AMOXICILLIN,Weight decreased,4
+AMOXICILLIN,Anaemia,3
+AMOXICILLIN,Cough,3
+AMOXICILLIN,Diplopia,3
+AMOXICILLIN,Neutropenia,3
+AMOXICILLIN,Pancytopenia,3
+AMOXICILLIN,Pyrexia,3
+AMOXICILLIN,Swelling,3
+IBUPROFEN,Deep vein thrombosis,6
+IBUPROFEN,Pain,6
+IBUPROFEN,Fatigue,5
+IBUPROFEN,Malaise,5
+IBUPROFEN,Weight decreased,5
+IBUPROFEN,Drug ineffective,4
+IBUPROFEN,Pyrexia,4
+IBUPROFEN,Abdominal pain,3
+IBUPROFEN,Adverse event,3
+IBUPROFEN,Arthritis,3
+IBUPROFEN,Blister,3
+IBUPROFEN,Chronic obstructive pulmonary disease,3
+IBUPROFEN,Diarrhoea,3
+IBUPROFEN,Drug interaction,3
+IBUPROFEN,Dyspepsia,3
+METFORMIN,Fatigue,8
+METFORMIN,Dyspnoea,6
+METFORMIN,Diarrhoea,5
+METFORMIN,Drug interaction,5
+METFORMIN,Nausea,5
+METFORMIN,Abdominal pain upper,4
+METFORMIN,Anaemia,4
+METFORMIN,Asthenia,4
+METFORMIN,Dizziness,4
+METFORMIN,Gastrointestinal haemorrhage,4
+METFORMIN,Headache,4
+METFORMIN,Dehydration,3
+METFORMIN,Gait disturbance,3
+METFORMIN,Muscular weakness,3
+METFORMIN,Vomiting,3
