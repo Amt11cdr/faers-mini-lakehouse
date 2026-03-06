@@ -1,4 +1,4 @@
-\# FAERS Mini Lakehouse
+# FAERS Mini Lakehouse
 
 
 
@@ -10,7 +10,7 @@ End-to-end data engineering pipeline built on FDA openFDA (FAERS) adverse event 
 
 
 
-\## Architecture
+## Architecture
 
 
 
@@ -18,11 +18,11 @@ API → JSONL → Bronze → Silver → Gold
 
 
 
-\- \*\*Bronze\*\*: Raw JSONL converted to Parquet with ingestion metadata  
+- \*\*Bronze\*\*: Raw JSONL converted to Parquet with ingestion metadata  
 
-\- \*\*Silver\*\*: Nested JSON normalized into relational-style tables  
+- \*\*Silver\*\*: Nested JSON normalized into relational-style tables  
 
-\- \*\*Gold\*\*: Analytics-ready aggregates  
+- \*\*Gold\*\*: Analytics-ready aggregates  
 
 
 
@@ -30,15 +30,15 @@ API → JSONL → Bronze → Silver → Gold
 
 
 
-\## Tables (Silver Layer)
+## Tables (Silver Layer)
 
 
 
-\- `silver\_events` – 1 row per event\_key  
+- `silver\_events` – 1 row per event\_key  
 
-\- `silver\_drugs` – exploded drug records  
+- `silver\_drugs` – exploded drug records  
 
-\- `silver\_reactions` – exploded reaction records  
+- `silver\_reactions` – exploded reaction records  
 
 
 
@@ -54,7 +54,7 @@ event\_key = safetyreportid:safetyreportversion
 
 
 
-\## Outputs (Gold Layer)
+## Outputs (Gold Layer)
 
 
 
@@ -62,17 +62,17 @@ Generated sample analytics:
 
 
 
-\- `data/sample\_outputs/top\_reactions\_by\_drug.csv`
+- `data/sample\_outputs/top\_reactions\_by\_drug.csv`
 
-\- `data/sample\_outputs/seriousness\_rate\_by\_drug.csv`
+- `data/sample\_outputs/seriousness\_rate\_by\_drug.csv`
 
 
 
 These contain:
 
-\- Most frequent adverse reactions per drug
+- Most frequent adverse reactions per drug
 
-\- Seriousness rate per drug
+- Seriousness rate per drug
 
 
 
@@ -80,7 +80,7 @@ These contain:
 
 
 
-\## Run
+## Run
 
 pip install -r requirements.txt
 
@@ -92,13 +92,13 @@ python src/run\_pipeline.py
 
 
 
-\## Notes
+## Notes
 
 
 
-\- Built using real public healthcare regulatory data  
+- Built using real public healthcare regulatory data  
 
-\- Generated data layers (raw/bronze/silver/gold) are excluded via `.gitignore`  
+- Generated data layers (raw/bronze/silver/gold) are excluded via `.gitignore`  
 
-\- Demonstrates ingestion, normalization, aggregation, and orchestration  
+- Demonstrates ingestion, normalization, aggregation, and orchestration  
 
