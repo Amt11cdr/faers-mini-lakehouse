@@ -18,11 +18,11 @@ API → JSONL → Bronze → Silver → Gold
 
 
 
-- \*\*Bronze\*\*: Raw JSONL converted to Parquet with ingestion metadata  
+- **Bronze**: Raw JSONL converted to Parquet with ingestion metadata  
 
-- \*\*Silver\*\*: Nested JSON normalized into relational-style tables  
+- **Silver**: Nested JSON normalized into relational-style tables  
 
-- \*\*Gold\*\*: Analytics-ready aggregates  
+- **Gold**: Analytics-ready aggregates  
 
 
 
